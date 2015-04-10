@@ -1,0 +1,108 @@
+/*** Style for table1.html ***/
+
+#table1 {
+	font: 100% sans-serif;
+	empty-cells: show;
+	border: double;
+}
+
+#table1, th, td {
+	border: 1px solid black;
+}
+
+
+#table1 > caption {
+	text-align: center;
+}
+
+
+#table1 td {
+	text-align: center;
+}
+
+
+/* header */
+#table1 > thead > tr:first-child > th {
+	text-align: center;
+}
+
+
+
+/* body */
+#table1 tbody th {
+    font-style: italic;
+    padding-left: .5em;	
+    padding-right: .5em;
+}
+
+
+
+#table1 tbody th {
+	font-weight: normal;
+}
+#table1 tbody th:nth-child(even) {
+	background-color: #99CCFF;
+}
+#table1 tbody tr:nth-child(even) {
+	background-color: #99CCFF;
+}
+
+#table1 tbody tr:nth-child(odd) {
+	background-color:#33FF99;
+}
+
+
+#table1 tbody td:nth-child(2){
+	font-style: normal;
+	color: red;
+}
+
+#table1 td:nth-child(4){
+	font-style: normal;
+	color: blue;
+}
+
+/* footer */
+
+#table1 tfoot th {
+	font-weight: normal;
+	font-style: normal;
+}
+
+dt:nth-child(3):hover ~ dd:nth-child(4) {
+	background-color: #9900FF;
+}
+dt:nth-child(5):hover ~ dd:nth-child(6) {
+	background-color: #9900FF;
+}
+
+dt:nth-child(1):hover ~ dd:nth-child(2) {
+	background-color: #9900FF;
+}
+
+
+.outer-container{
+	margin-top: 20px;
+	margin-bottom: 20px;
+    position: relative;
+    width:75%;
+    background-color: pink;
+} 
+
+
+.inner-container{
+
+	background-color: #99CCFF;
+	width: 50px;
+	height: 50px;
+	position:relative;
+	width:75%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+img {
+	height:125px;
+	width:100px;
+	float: left;
+}
